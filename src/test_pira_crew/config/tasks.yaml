@@ -17,7 +17,6 @@ reporting_task_1:
   agent: reporting_analyst_1
   context:
     - research_task
-  human_input: True
 
 reporting_task_2:
   description: >
@@ -29,7 +28,6 @@ reporting_task_2:
   agent: reporting_analyst_2
   context:
     - research_task
-  human_input: True
 
 aggregation_task:
   description: >
